@@ -6,10 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("/board")
+@RequestMapping("/Board")
 public class BoardController {
 
     @Autowired
