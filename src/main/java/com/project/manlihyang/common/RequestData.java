@@ -4,11 +4,10 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.validation.constraints.Email;
-import javax.validation.constraints.NotNull;
 import lombok.*;
 
 /**
- * 기본 RequestData Format
+ * 기본 RequestData Format, POST
  */
 @Setter
 @Getter
